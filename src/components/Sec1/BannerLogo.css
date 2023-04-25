@@ -1,0 +1,49 @@
+.sec1-banner-footer-right-logo-ctn {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: repeat(2, 45%);
+    gap: 0.5rem;
+    width: 100%;
+    overflow: hidden;
+  } 
+  
+  .sec1-banner-footer-logo-gradient {
+    width: 95%;
+    height: 95%;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+  }
+
+  .sec1-banner-footer-logo {
+    width: 90%;
+    height: 90%;
+    background: rgba(237, 228, 228, 0.575);
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border-radius: 0.1rem;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: initial;
+  }
+  
+  .sec1-banner-footer-logo a img {
+    width: 100%;
+    object-fit: contain;
+  }

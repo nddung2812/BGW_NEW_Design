@@ -1,0 +1,182 @@
+.sec1 {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 0 5rem 0;
+  }
+  
+  .sec1-banner {
+    width: 82%;
+    height: 48rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    left: 0;
+    z-index: 1;
+    margin: 0 auto;
+    /* clip-path: polygon(0% 0%,55% 0%,46% 46%,52% 74%,47% 100%,0% 100%,0% 55%); */
+    /* clip-path: polygon(0% 0%,53% 0%,44% 34%,53% 74%,47% 100%,0% 100%,0% 55%); */
+    clip-path: polygon(0% 0%,54% 0%,46% 32%,52% 74%,48% 100%,0% 100%,0% 55%);
+  }
+  
+  
+  .sec1-banner2 {
+    width: 82%;
+    height: 48rem;
+    opacity: 1;
+    z-index: 0;
+    position: relative;
+    box-shadow: 2px 8px 32px 0 rgb(109, 3, 179);
+    bottom: 48rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: linear-gradient(to left top, rgb(58 0 0), rgb(181 7 7));
+  }
+  
+  
+  .bg-front-cover {
+    width: 82%;
+    height: 48rem;
+    opacity: 1;
+    background-color: #0808088a;
+    background-blend-mode: darken;
+    overflow: hidden;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F5-bg.jpg?alt=media&token=651a7cfa-abe6-4b8f-a575-f1f4628161bb");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20rem;
+  }
+  
+  .sec1-banner-body {
+    width: 100%;
+    height: 38rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .banner-body-left {
+    width: 50%;
+    padding: 0 8rem 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10rem;
+    overflow-y: hidden;
+  }
+  
+  .banner-heading {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  .banner-heading sup {
+    font-size: 1rem;
+    top: -1rem;
+    position: relative;
+  }
+  
+  .banner-body-left h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1.5rem 0;
+    width: 80%;
+  }
+  
+  .banner-body-left button {
+    padding: 1rem;
+    width: 11rem;
+    border-radius: 0.2rem;
+    border: none;
+    background: rgb(181 7 7);
+    font-size: 1rem;
+  }
+  
+  .banner-body-right {
+    width: 50%;
+    padding: 1rem;
+    z-index: 9;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  
+  .banner-body-right-top {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-body-right-top video {
+    height: 80%;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  
+  .banner-body-right-layer2 {
+    width: 45%;
+    height: 38rem;
+    margin-bottom: 10rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-body-right-layer2 video {
+    width: 90%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+  }
+  
+  .sec1-banner-footer {
+    height: 12.5rem;
+    width: 82%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60.5rem;
+    z-index: 2;
+    background: linear-gradient(135deg, rgba(160, 11, 11, 0.1), rgba(255,255,255 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sec1-bannner-footer-left {
+    padding-left: 4rem;
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  
+  .sec1-bannner-footer-left::after {
+    display: block;
+    content: "";
+    height: 0.2rem;
+    width: 100%;
+    background:linear-gradient(to right, rgb(235, 235, 27), rgb(241, 25, 25) 5%, rgb(74, 0, 224), transparent);
+  }
+  
+  .sec1-banner-footer-right {
+    width: 50%;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
