@@ -2,7 +2,7 @@ import { useState } from 'react'
 import'./Sec2MainRight.css'
 
 export const Sec2MainRight = () => {
-  const [state1, setState1] = useState("right-partner")
+  const [state1, setState1] = useState("wholesaling-experts")
 
   const UpdateSupply = () => {
     setState1("supply-chain");
@@ -12,12 +12,16 @@ export const Sec2MainRight = () => {
     setState1("australian-history");
   }
 
+  const UpdateWholesale = () => {
+    setState1("wholesaling-experts");
+  }
+
   return (
     <div className='sec2-main-right'>
-        {state1 === "right-partner" && <div className="sec2-main-right-header">
+        {state1 === "wholesaling-experts" && <div className="sec2-main-right-header">
             The right partner for success
         </div>}
-        {state1 === "right-partner" && <div className="sec2-main-right-body sec2-main-right-body-cover">
+        {state1 === "wholesaling-experts" && <div className="sec2-main-right-body sec2-main-right-body-cover">
    
             <li><span>✔</span>We are a diversified Australian wholesaling 
             business with the financial strength and global 
@@ -82,7 +86,7 @@ export const Sec2MainRight = () => {
 
 
         <div className="sec2-main-right-footer-cta">
-            <div className="sec2-right-footer-cta-ctn">
+            <div className="sec2-right-footer-cta-ctn" onClick={UpdateWholesale}>
               <div className="sec2-right-cta wholesale-experts"></div>
               <div className="sec2-right-cta-text">Wholesaling Experts</div>
             </div>
