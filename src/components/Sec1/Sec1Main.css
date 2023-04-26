@@ -1,12 +1,19 @@
 .sec1 {
     width: 100%;
-    height: 100%;
+    height: 50rem;
     padding: 8rem 0 5rem 0;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbackground%20Circuit.png?alt=media&token=ac5446b6-b80f-452d-9ce2-906e1313e800");
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbackground%20Circuit2.png?alt=media&token=bf09ce43-a5f9-49a6-a3f2-2321cab985e0"); */
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbackground%20Circuit3.png?alt=media&token=66e25378-57a6-4976-8c11-d7800b9dc8d7"); */
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+    background-size: 40rem;
+    /* background-color: rgba(0, 0, 0, 0.486); */
   }
   
   .sec1-banner {
     width: 82%;
-    height: 48rem;
+    height: 42rem;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -20,18 +27,19 @@
     margin: 0 auto;
     /* clip-path: polygon(0% 0%,55% 0%,46% 46%,52% 74%,47% 100%,0% 100%,0% 55%); */
     /* clip-path: polygon(0% 0%,53% 0%,44% 34%,53% 74%,47% 100%,0% 100%,0% 55%); */
-    clip-path: polygon(0% 0%,54% 0%,46% 32%,52% 74%,48% 100%,0% 100%,0% 55%);
+    /* clip-path: polygon(0% 0%,54% 0%,46% 32%,52% 74%,48% 100%,0% 100%,0% 55%); */
+    clip-path: polygon(0% 0%,52% 0%,47% 33%,51% 74%,48% 100%,0% 100%,0% 55%);
   }
   
   
   .sec1-banner2 {
     width: 82%;
-    height: 48rem;
+    height: 42rem;
     opacity: 1;
     z-index: 0;
     position: relative;
     box-shadow: 2px 8px 32px 0 rgb(109, 3, 179);
-    bottom: 48rem;
+    bottom: 42rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -40,12 +48,16 @@
     overflow: hidden;
     border-radius: 0.5rem;
     background: linear-gradient(to left top, rgb(58 0 0), rgb(181 7 7));
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbackgroundgradident.png?alt=media&token=0ff4fec7-dce6-43e8-bd3d-5b7c4c8a6dd5");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%; */
   }
   
   
   .bg-front-cover {
     width: 82%;
-    height: 48rem;
+    height: 42rem;
     opacity: 1;
     background-color: #0808088a;
     background-blend-mode: darken;
@@ -58,7 +70,7 @@
   
   .sec1-banner-body {
     width: 100%;
-    height: 38rem;
+    height: 35rem;
     color: var(--text-color);
     display: flex;
     align-items: center;
@@ -120,7 +132,7 @@
   }
   
   .banner-body-right-top video {
-    height: 80%;
+    height: 90%;
     object-fit: contain;
     overflow: hidden;
     border-radius: 1rem;
@@ -143,11 +155,11 @@
   }
   
   .sec1-banner-footer {
-    height: 12.5rem;
+    height: 10rem;
     width: 82%;
     margin: 0 auto;
     position: relative;
-    bottom: 60.5rem;
+    bottom: 52rem;
     z-index: 2;
     background: linear-gradient(135deg, rgba(160, 11, 11, 0.1), rgba(255,255,255 0));
     backdrop-filter: blur(10px);
@@ -168,10 +180,24 @@
   .sec1-bannner-footer-left::after {
     display: block;
     content: "";
-    height: 0.2rem;
+    height: 0.15rem;
     width: 100%;
-    background:linear-gradient(to right, rgb(235, 235, 27), rgb(241, 25, 25) 5%, rgb(74, 0, 224), transparent);
+    background:linear-gradient(to right, rgb(192, 192, 15), rgb(241, 25, 25) 5%, rgb(75, 16, 194), transparent);
+    animation: animate 20s linear infinite;
+    background-size: 300%;
   }
+
+  @keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 300% 0;
+    }
+    100% {
+        background-position: 600% 0;
+    }
+}
   
   .sec1-banner-footer-right {
     width: 50%;

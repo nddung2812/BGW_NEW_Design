@@ -1,0 +1,130 @@
+.sec2-main-right {
+    width: 50%;
+    height: 90%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0 0 0 2.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.06);
+      -webkit-backdrop-filter: blur(15px);
+      backdrop-filter: blur(15px);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
+      border: 1.5px solid rgba(255, 255, 255, 0.06); */
+  }
+
+  .sec2-main-right-header {
+    height: 8rem;
+    padding: 0 30% 0 0rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #f6f6f9;
+    /* background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
+    border: 1.5px solid rgba(255, 255, 255, 0.06); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sec2-main-right-header::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, transparent -5%, rgb(121, 6, 6), rgb(233, 225, 225), rgb(194, 16, 16), transparent);
+  }
+
+  .sec2-main-right-body {
+    height: 24rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
+    border: 1.5px solid rgba(255, 255, 255, 0.06);
+    margin: 2rem 0;
+    padding: 0.5rem 0;
+  }
+  
+  .sec2-main-right-body-cover {
+    background-color: #080808c9;
+    background-blend-mode: darken;
+    overflow: hidden;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F3-bg.jpg?alt=media&token=cdf00523-9c30-437d-a1fc-561e9c2b5a28");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .sec2-main-right-body-cover li {
+    list-style: none;
+    margin: 1.1rem 0 0 2rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  .sec2-main-right-body-cover li span {
+    margin: 0 0.5rem 0 0;
+    font-size: 2rem;
+    color: rgb(85, 241, 13);
+    vertical-align: bottom;
+  }
+
+
+  .sec2-main-right-footer-cta {
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sec2-right-footer-cta-ctn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec2-right-cta {
+    width: 4.5rem;
+    height: 4.5rem;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  .sec2-right-cta.wholesale-experts {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Project%20management.png?alt=media&token=3f896f16-1e5d-427a-aa1a-eb748529a005");
+  }
+
+  .sec2-right-cta.supply-chain {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Experience.png?alt=media&token=43481439-0d89-40af-8322-de9c94ea98f7");
+  }
+
+  .sec2-right-cta.australian-history {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/History.png?alt=media&token=ec3ba570-7172-453a-97f7-f0997521712f");
+  } 
+
+  .sec2-right-cta-text {
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+  }
+

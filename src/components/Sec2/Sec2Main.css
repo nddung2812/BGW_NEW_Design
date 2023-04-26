@@ -1,0 +1,18 @@
+.sec2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec2-main-ctn {
+  width: 82%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
