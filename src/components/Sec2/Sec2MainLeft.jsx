@@ -47,7 +47,7 @@ return (
 				navigation={true}
 				grabCursor={true}
 				autoplay={{
-					delay: 3500,
+					delay: 20500,
 					disableOnInteraction: false,
 				}}
 				cubeEffect={{
@@ -62,7 +62,7 @@ return (
 			>
 				<SwiperSlide className="cube-swiper-slide">
 				<div className="line-1">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faEarthOceania} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -71,7 +71,7 @@ return (
 							<div className="hl-text">Australian Owned Since 1938</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faGlobe} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -80,7 +80,7 @@ return (
 								<div className="hl-text">International Locations</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faCertificate} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -91,7 +91,7 @@ return (
 					</div>
 				</div>
 				<div className="line-2">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faLocationPin} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -100,10 +100,10 @@ return (
 							<div className="hl-text">Australian Locations</div>
 						</div>
 					</div>
-					<div className="block centre-text">
+					<div className="block glow  centre-text">
 						<h1>B<strong>G</strong>W</h1>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faUserGroup} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -114,7 +114,7 @@ return (
 					</div>
 				</div>
 				<div className="line-3">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faPlane} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -123,7 +123,7 @@ return (
 							<div className="hl-text">Supplied Domestic and International</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faBriefcase} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -132,7 +132,7 @@ return (
 							<div className="hl-text">Privately Owned Businesses in QLD</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faBusinessTime} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -145,7 +145,7 @@ return (
 				</SwiperSlide>
 				<SwiperSlide className="cube-swiper-slide">
 				<div className="line-1">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faFile} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -153,7 +153,7 @@ return (
 							<div className="hl-text">Documentation and Reporting</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faCalendarCheck} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -161,7 +161,7 @@ return (
 								<div className="hl-text">Planning</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faGlobe} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -171,7 +171,7 @@ return (
 					</div>
 				</div>
 				<div className="line-2">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faTruck} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -179,10 +179,10 @@ return (
 							<div className="hl-text">Supplier Consolidation</div>
 						</div>
 					</div>
-					<div className="block centre-text-cube2">
+					<div className="block glow  centre-text-cube2">
 						<div className="hl-top-cube2">Project Management</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faListCheck} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -192,7 +192,7 @@ return (
 					</div>
 				</div>
 				<div className="line-3">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faPhoneVolume} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -200,7 +200,7 @@ return (
 							<div className="hl-text">Customer Service</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faSearchPlus} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -208,7 +208,7 @@ return (
 							<div className="hl-text">Progress Visibility</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faCheckDouble} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -220,7 +220,7 @@ return (
 				</SwiperSlide>
 				<SwiperSlide className="cube-swiper-slide">
 				<div className="line-1">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faChartColumn} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -228,7 +228,7 @@ return (
 							<div className="hl-text">Materials Management</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faUserLock} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -236,7 +236,7 @@ return (
 								<div className="hl-text">Digital Procurement</div>
 						</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faCartFlatbedSuitcase} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -246,7 +246,7 @@ return (
 					</div>
 				</div>
 				<div className="line-2">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faChargingStation} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -254,10 +254,10 @@ return (
 							<div className="hl-text">Cable Management</div>
 						</div>
 					</div>
-					<div className="block centre-text">
+					<div className="block glow  centre-text">
 						<div className="hl-top-cube2">Supply Chain Management</div>
 					</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faCheckSquare} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -267,7 +267,7 @@ return (
 					</div>
 				</div>
 				<div className="line-3">
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={	faHandshakeAngle } className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -275,7 +275,7 @@ return (
 							<div className="hl-text">Support</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faGlobe} className="cube-icon" 
 						// color="#d13939" 
 						/>
@@ -283,7 +283,7 @@ return (
 							<div className="hl-text">Product Sourcing</div>
 						</div>
 						</div>
-					<div className="block">
+					<div className="block glow ">
 						<FontAwesomeIcon icon={faScrewdriverWrench} className="cube-icon" 
 						// color="#d13939" 
 						/>

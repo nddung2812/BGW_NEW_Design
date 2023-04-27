@@ -41,7 +41,8 @@
     content: "";
     height: 2px;
     width: 100%;
-    background: linear-gradient(to right, transparent -5%, rgb(121, 6, 6), rgb(233, 225, 225), rgb(194, 16, 16), transparent);
+    /* background: linear-gradient(to right, transparent -5%, rgb(240, 8, 8), rgb(233, 225, 225), rgb(194, 16, 16) 55%, transparent); */
+    background: linear-gradient(45deg,transparent, #def107, #da0c0c, #c309db, #ff0000, transparent);
   }
 
   .sec2-main-right-body {
