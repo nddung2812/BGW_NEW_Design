@@ -82,12 +82,25 @@
   .banner-heading {
     font-size: 4rem;
     font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #f6f6f9;
+    background: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fback.png?alt=media&token=cce37eed-1dcd-4aed-be8e-b4722d457120");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+  }
+
+  @keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
   }
   
   .banner-heading sup {
     font-size: 1rem;
     top: -1rem;
     position: relative;
+    color: #f6f6f9;
   }
   
   .banner-body-left h3 {
@@ -174,9 +187,9 @@
     content: "";
     height: 2px;
     width: 100%;
-    background:linear-gradient(to right, rgb(192, 192, 15), rgb(241, 25, 25) 5%, rgb(75, 16, 194), transparent);
-    animation: animate 20s linear infinite;
-    background-size: 300%;
+    background:linear-gradient(to right, transparent, rgb(212, 212, 12), rgb(241, 25, 25) 5%, rgba(77, 13, 204, 0.801), transparent);
+    animation: animate 30s linear infinite;
+    background-size: 600%;
   }
 
   @keyframes animate {
@@ -184,7 +197,7 @@
         background-position: 0 0;
     }
     50% {
-        background-position: 300% 0;
+        background-position: 600% 0;
     }
     100% {
         background-position: 600% 0;

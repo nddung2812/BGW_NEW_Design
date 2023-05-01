@@ -1,8 +1,8 @@
 .sec2-main-left {
-    width: 60%;
+    width: 50%;
     height: 90%;
     padding: 1rem;
-    margin: 0 2.5rem 0 0;
+    margin: 0 2.5rem 0 -5rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@
 
 .block h1 {
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 .cube-icon {
@@ -129,7 +129,7 @@
 
 .hl-top-cube2 {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 800;
     margin-bottom: 0.2rem;
     color: rgb(181 7 7);

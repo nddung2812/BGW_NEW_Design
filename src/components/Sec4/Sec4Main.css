@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******* Common Element CSS Start ******/
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+body {
+  background-color: #3f5de1;
+}
+.main-container {
+  min-height: 40rem;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 55rem;
+  overflow: hidden;
+  justify-content: center;
+}
+.main {
+  margin: 0px 10rem 0 0;
+  width: 40rem;
+  height: 40rem;
+  position: relative;
+}
+.big-circle {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 2px solid #0f5dd1dc;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  animation: Rotate 20s linear infinite;
+  -webkit-animation: Rotate 20s linear infinite;
+}
+.icon-block {
+  width: 5.5rem;
+  height: 5.5rem;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  cursor: pointer;
+  background-color: rgb(16, 16, 17);
+  border: 1px solid rgba(241, 241, 241, 0.322);
+}
+
+.icon-block .icon-img {
+  margin: 0px auto;
+  width: 100%;
+  animation: Rotate-reverse 20s linear infinite;
+  -webkit-animation: Rotate-reverse 20s linear infinite;
+}
+
+.icon-img {
+  color: rgb(223, 37, 37);
+  font-size: 2.5rem;
+}
+
+.icon-block .icon-img:hover {
+  scale: 1.1;
+  transition: 300ms;
+
+}
+
+.icon-block:first-child {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.icon-block:nth-child(2) {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+}
+.icon-block:nth-child(3) {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+}
+.icon-block:nth-child(4) {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+/* circle content */
+.circle {
+  animation: circle-rotate 20s linear infinite;
+  -webkit-animation: circle-rotate 20s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  width: 70%;
+  height: 70%;
+  border: 1px solid #0f5dd1dc;
+  border-radius: 50%;
+}
+.circle .icon-block .icon-img {
+  animation: img-rotate 20s linear infinite;
+  -webkit-animation: img-rotate 20s linear infinite;
+}
+/* center logo */
+.center-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec4-center-logo-ctn {
+  width: 120px;
+}
+.center-logo img {
+  max-width: 100%;
+}
+
+/* keyframe animation */
+
+@keyframes Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes Rotate-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes Rotate-reverse {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes circle-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@-webkit-keyframes circle-rotate {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@keyframes img-rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(-405deg);
+  }
+}
+
+@-webkit-keyframes img-rotate {
+  from {
+    -webkit-transform: rotate(-45deg);
+  }
+  to {
+    -webkit-transform: rotate(-405deg);
+  }
+}
+
+
+/* Right panel*/
+
+.sec4-right-panel {
+  width: 40rem;
+  padding: 1rem;
+  /* clip-path: polygon(25% 0%,100% 1%,100% 100%,25% 100%,36% 51%); */
+  border: 1px solid rgba(241, 241, 241, 0.322);
+  /* clip-path:ellipse(67% 100% at 8% 50%); */
+  border-radius: 0.2rem;
+}
+

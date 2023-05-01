@@ -1,0 +1,271 @@
+.stage, .ring, .img-ctn {
+  transform-style: preserve-3d;
+  user-select:none;
+}
+
+.our-businesses {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6rem;
+}
+
+.our-businesses h1 {
+  width: 27rem;
+  color: #f6f6f9;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  height: 4rem;
+  border-bottom:1px solid #7e3d3d ;
+}
+
+.stage {
+  width: 100%;
+  height: 55rem; 
+  cursor: grab;
+  overflow:hidden;
+}
+
+.stage, .ring, .carousel-container, .img-ctn {
+  position: absolute;
+}
+.carousel-container {
+  perspective: 800px;
+  width: 360px;
+  height: 360px;  
+  left:50%;
+  top:53%;
+  transform:translate(-50%,-50%) rotateZ(6deg) ;    
+  margin-top: -6%;
+  cursor: grab;
+}
+
+.img-ctn {
+  width: 45rem;
+  height: 34rem;
+  z-index: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+
+.img-ctn img {
+  pointer-events: none;
+}
+
+.img-ctn a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-ctn:nth-child(n) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f3ebebb7;
+  border-radius: 1rem;
+}
+
+.clickMe-btn {
+  position: absolute;
+  width: 13rem;
+  height: 4rem;
+  left: 84%;
+  bottom: -7rem;
+  transform: translate(-50%,-50%);
+  pointer-events: auto;
+  transition: 800ms;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  border-bottom: 2px solid #D13939;
+}
+
+.clickMe-text {
+  color: #f6f6f9;
+  font-size: 2rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.clickMe-btn p {
+  margin-right: 0.4rem;
+}
+
+.clickMe-btn:hover {
+  transition: 800ms;
+  opacity: 0.8;
+  pointer-events: auto;
+  background-color: #D13939;
+  border: none;
+}
+
+.clickMe-btn:hover ~ .text {
+  opacity: 1;
+  transition: 500ms;
+}
+
+.inner-img {
+  object-fit: contain;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.ring {
+  width:100%;
+  height: 100%;
+}
+
+.intro-snippet {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: 800ms;
+  transform: translateY(700px);
+  color: #f6f6f9;
+}
+
+.intro-snippet h2 {
+  height: 5rem;
+  font-size: 3rem;
+  display: grid;
+}
+
+.intro-snippet p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.carousel-sherriff:hover,
+.carousel-ila:hover {
+  box-shadow: 0px 0px 100px #b8b824;
+  transition: 800ms;
+}
+
+.carousel-cnw:hover, 
+.carousel-samios:hover,
+.carousel-mms:hover,
+.carousel-bgwt:hover,
+.carousel-robert:hover
+   {
+  box-shadow: 0px 0px 100px #d13939;
+  transition: 800ms;
+}
+
+.carousel-wea:hover, 
+.carousel-airadditions:hover, 
+.carousel-airadditions:hover,
+.carousel-ses:hover,
+.carousel-cablemakers:hover {
+  box-shadow: 0px 0px 100px #2641db;
+  transition: 800ms;
+}
+
+.carousel-sherriff:hover > .intro-snippet,
+.carousel-cnw:hover > .intro-snippet,
+.carousel-samios:hover > .intro-snippet,
+.carousel-wea:hover > .intro-snippet,
+.carousel-bgwt:hover > .intro-snippet, 
+.carousel-airadditions:hover > .intro-snippet,
+.carousel-ses:hover > .intro-snippet,
+.carousel-cablemakers:hover > .intro-snippet,
+.carousel-mms:hover > .intro-snippet,
+.carousel-ila:hover > .intro-snippet,
+.carousel-robert:hover > .intro-snippet 
+ {
+  opacity: 1;
+  transition: 1000ms;
+  transform: translateY(530px);
+}
+
+
+@media(max-width: 768px) {
+  .stage {
+    height: 25rem;
+  }
+
+  .our-businesses {
+    margin-top: 3rem;
+  }
+  
+  .our-businesses h1 {
+    height: 2rem;
+    font-size: 1.5rem;
+    width: 14rem;
+  }
+
+  .carousel-container {
+    perspective: 300px;
+    top:50%;
+  }
+  .ourTeam-btn {
+    top: 13rem;
+    font-size: 2rem;
+    right: -7.5rem;
+  }
+
+  .clickMe-btn {
+    width: 25rem;
+    height: 25rem;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+  }
+
+  .clickMe-btn:hover {
+    opacity: 0;
+    pointer-events: auto;
+    border-bottom: none;
+  }
+
+  .intro-snippet {
+    display: none;
+  }
+}
+
+@media(max-width: 1350px) and (min-width: 769px) {
+  .carousel-container {
+    perspective: 600px;
+    top:50%;
+  }
+
+  .stage {
+    height: 30rem;
+  }
+
+  .our-businesses {
+    margin-top: 3rem;
+  }
+  
+  .our-businesses h1 {
+    height: 2.5rem;
+    font-size: 2rem;
+    width: 18rem;
+  }
+
+  .clickMe-btn {
+    width: 47rem;
+    height: 35rem;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+  }
+
+  .clickMe-btn:hover {
+    opacity: 0;
+    pointer-events: auto;
+    border-bottom: none;
+  }
+}

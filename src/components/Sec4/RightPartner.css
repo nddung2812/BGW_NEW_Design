@@ -1,0 +1,118 @@
+#partner-ctn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.partner-businesses {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-business {
+  height: 64%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  row-gap: 0.1rem;
+  grid-template-columns: repeat(5, 20%);
+}
+
+.business-logo-ctn {
+  width: 77%;
+  height: 70%;
+  padding: 0.7rem;
+  margin: 0.3rem 0.3rem;
+  background-color: rgb(130, 130, 130);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.1rem;
+}
+
+.business-logo-ctn:hover {
+  background-color: rgba(149, 148, 148, 0.97);
+}
+
+.business-logo-ctn a {
+  width: 95%;
+}
+.business-logo-ctn img:hover {
+  transform: scale(1.07);
+  transition: 400ms;
+}
+
+.partner-business img {
+  width: 95%;
+  height: auto;
+  transition: 400ms;
+}
+
+@media(max-width: 768px) {
+  #partner-ctn {
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+
+  .partner-businesses {
+    margin-top: 0rem;
+    height: 100%;
+  }
+  .partner-business {
+    height: 85%;
+    width: 100%;
+    row-gap: 0.2rem;
+    column-gap: 0.2rem;
+    margin-top: 0.5rem;
+    grid-template-rows: repeat(3, 33%);
+  }
+
+  .business-logo-ctn {
+    width: 80%;
+    height: 80%;
+    padding: 0.3rem;
+    margin: 0rem 0.2rem;
+    border-radius: 0.1rem;
+  }
+}
+
+@media(max-width: 1350px) and (min-width: 769px) {
+  #partner-ctn {
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+
+  .partner-businesses {
+    margin-top: 0.5rem;
+  }
+
+  .partner-business {
+    height: 14.5rem;
+    width: 100%;
+    row-gap: 0.2rem;
+    column-gap: 0rem;
+    margin-top: 0.5rem;
+    grid-template-rows: repeat(3, 33%);
+  }
+
+  .business-logo-ctn {
+    width: 80%;
+    height: 80%;
+    padding: 0.3rem;
+    margin: 0.2rem 0.1rem;
+    border-radius: 0.1rem;
+  }
+}
+
+
+
+
