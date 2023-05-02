@@ -1,11 +1,10 @@
 import { MCarousel } from './MCarousel';
-import './Sec3main.css';
+import './Sec3Main.css';
 
 export const Sec3Main = () => {
   return (
     <div className='sec3'>
-   
-            <MCarousel />
+      <MCarousel />
     </div>
   )
 }
