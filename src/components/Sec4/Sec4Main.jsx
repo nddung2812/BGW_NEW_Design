@@ -75,10 +75,10 @@ export const Sec4Main = () => {
                 </div>
             </div>
             <div className="sec4-right-panel">
-                <div className="sec4-right-heading-ctn">
-
-                </div>
                 <RightPartner divValue={divValue}/>
+                <div className="sec4-right-panel-btn-ctn">
+                    <button onClick={handleChangeExperiences}>Our Projects</button>
+                </div>
             </div>
             </div>
         }

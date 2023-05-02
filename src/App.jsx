@@ -4,6 +4,7 @@ import { Sec1Main } from './components/Sec1/Sec1Main';
 import { Sec2Main } from './components/Sec2/Sec2Main';
 import { Sec3Main } from './components/Sec3/Sec3Main';
 import { Sec4Main } from './components/Sec4/Sec4Main';
+import { Sec5Main } from './components/Sec5/Sec5Main';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Sec1Main />
       <Sec2Main />
       <Sec4Main />
+      <Sec5Main />
       <Sec3Main />
     </div>
   )
