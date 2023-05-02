@@ -1,0 +1,221 @@
+.project-carousel-ctn {
+    width: 38rem;
+    height: 35rem;
+    border-radius: 0.1rem;
+    border: 1px solid rgb(73, 72, 72);
+    padding: 1rem;
+    background-color: #0f0f0fa8;
+}
+
+
+.projects-heading::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(45deg,transparent, #def107, #da0c0c, #ff0000, transparent);
+}
+
+.projects-heading h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #f6f6f9;
+}
+
+
+
+.main-carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+
+.project-swiper-slide {
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-swiper-slide img {
+    width: 100%;
+    height: 58%;
+    object-fit: cover;
+    padding: 1rem 0;
+    cursor: grab;
+}
+
+.project-name {
+    height: 4rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-name::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(45deg, #def107, #da0c0c, #ff0000, transparent);
+}
+
+.project-details-ctn {
+    height: 20%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    color: #f6f6f9;
+}
+
+.project-details {
+    width: 100%;
+    height: 90%;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.project-status, .project-year, .project-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.project-icon {
+    margin: 0.4rem 1rem;
+    font-size: 1.2rem;
+    color: rgb(223, 37, 37);
+}
+
+.project-swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 6px !important;
+}
+
+  @media(max-width: 768px) {
+      
+    .project-carousel-ctn {
+        width: 85%;
+        height: 25rem;
+        margin-left: 0;
+        border: 1px solid rgb(73, 72, 72);
+        padding: 0.5rem;
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .projects-heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .main-carousel {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .project-swiper-slide img {
+        height: 50%;
+        padding: 0 5%;
+    }
+
+    .project-name {
+        height: 2.3rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-details-ctn {
+        height: 30%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.2rem 1rem;
+        margin-top: 1rem;
+    }
+
+    .project-details {
+        padding: 0 0;
+    }
+
+    .project-status, .project-year, .project-location {
+        font-size: 1rem;
+    }
+
+  }
+
+@media(max-width: 1350px) and (min-width: 769px) {
+    .project-carousel-ctn {
+        width: 26rem;
+        height: 25rem;
+        margin-left: 0;
+        border: 1px solid rgb(73, 72, 72);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.5rem;
+    }
+
+    .main-carousel {
+        width: 100%;
+        height: 90%;
+    }
+    .projects-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-swiper-slide img {
+        height: 50%;
+        padding: 0;
+    }
+
+    .project-name {
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .project-details-ctn {
+        height: 70%;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+    }
+
+    .project-details {
+        width: 100%;
+        height: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .project-status, .project-year, .project-location {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  
+    .project-carousel-ctn {
+        width: 70%;
+    }
+  }

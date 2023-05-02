@@ -1,8 +1,8 @@
 .sec2-main-left {
-    width: 50%;
+    width: 44%;
     height: 90%;
-    padding: 1rem;
-    margin: 0 2.5rem 0 -5rem;
+    padding: 0.5rem 6rem 0.5rem 2rem;
+    margin: 0 1rem 0 -5rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -43,6 +43,10 @@
     /* background: linear-gradient(0deg, rgb(201, 189, 189), rgb(44, 44, 44) ); */
     border: 1px solid rgba(241, 241, 241, 0.322);
     position: relative;
+}
+
+.block:hover {
+    border: 1px solid transparent;
 }
 
 .glow::before, .glow::after {

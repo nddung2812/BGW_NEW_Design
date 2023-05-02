@@ -1,11 +1,12 @@
 .sec1-banner-footer-right-logo-ctn {
     display: grid;
     place-items: center;
+    place-content: center;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(6, 15%);
-    grid-template-rows: repeat(2, 45%);
-    gap: 0.5rem;
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(2, 47%);
+    gap: 0.4rem;
     width: 100%;
     overflow: hidden;
   } 
@@ -30,8 +31,8 @@
   }
 
   .sec1-banner-footer-logo {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     background: rgba(237, 228, 228, 0.575);
     backdrop-filter: blur( 18px );
     -webkit-backdrop-filter: blur( 18px );

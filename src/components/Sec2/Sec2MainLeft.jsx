@@ -47,7 +47,7 @@ return (
 				navigation={true}
 				grabCursor={true}
 				autoplay={{
-					delay: 20500,
+					delay: 4500,
 					disableOnInteraction: false,
 				}}
 				cubeEffect={{
@@ -101,7 +101,7 @@ return (
 						</div>
 					</div>
 					<div className="block glow  centre-text">
-						<h1>B<strong>G</strong>W</h1>
+						<h1>BGW</h1>
 					</div>
 					<div className="block glow ">
 						<FontAwesomeIcon icon={faUserGroup} className="cube-icon" 

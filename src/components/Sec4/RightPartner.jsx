@@ -8,7 +8,8 @@ export const RightPartner = ({divValue}) => {
       {LogoLinks.map((item, i) => { 
         return ( 
           divValue === item.name && 
-            <div className="partner-businesses" key={i}>
+          <div className="partner-businesses" key={i}>
+              <div className="industry-heading">{item.industry}</div>
               <div className="partner-business">
                 {item.logos.map((logo, i) => {
                   return (

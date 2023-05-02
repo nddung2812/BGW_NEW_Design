@@ -1,37 +1,93 @@
-@charset "utf-8";
-/* CSS Document */
 
 /******* Common Element CSS Start ******/
 * {
-  margin: 0px;
-  padding: 0px;
   outline: none;
 }
-body {
-  background-color: #3f5de1;
-}
+
+
 .main-container {
   min-height: 40rem;
   display: flex;
+  flex-direction: column;
   display: -webkit-flex;
   align-items: center;
   -webkit-align-items: center;
-  height: 55rem;
   overflow: hidden;
   justify-content: center;
+  margin: 8rem 0;
 }
+
+.sec4-main-header {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  margin: 3rem 0;
+}
+
+.sec4-main-header-left, .sec4-main-header-right {
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sec4-main-header-left {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%, 0 100%);
+  z-index: 0;
+  background-color: rgb(181 7 7);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border-radius: 0.3rem;
+  padding-right: 4rem;
+}
+
+.sec4-main-header-right {
+  overflow: hidden;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  left: -5rem;
+  z-index: 1;
+  background-color: rgb(15, 15, 15);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  padding-left: 3rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.sec4-center-banner {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(189, 171, 171, 0.568);
+  padding: 1rem 0;
+  height: 40rem;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbacground2.jpg?alt=media&token=dba840bd-f2aa-4009-88c7-b78534f357ec");
+  border-radius: 0.3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: #0000008a;
+}
+
 .main {
   margin: 0px 10rem 0 0;
-  width: 40rem;
-  height: 40rem;
+  width: 33rem;
+  height: 33rem;
   position: relative;
 }
 .big-circle {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 2px solid #0f5dd1dc;
-  border-radius: 50%;
+  border: 1px solid #ff5100b2;
+  border-radius: 100%;
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -40,10 +96,12 @@ body {
   -webkit-justify-content: center;
   animation: Rotate 20s linear infinite;
   -webkit-animation: Rotate 20s linear infinite;
+  background: radial-gradient(#2e2d2de0, #030303);
+  /* background: radial-gradient(#2e2d2da9, #030303, rgb(185, 204, 19), rgb(184, 22, 184)); */
 }
 .icon-block {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -53,8 +111,8 @@ body {
   justify-content: center;
   -webkit-justify-content: center;
   cursor: pointer;
-  background-color: rgb(16, 16, 17);
-  border: 1px solid rgba(241, 241, 241, 0.322);
+  background: linear-gradient(180deg, rgb(49, 44, 44), rgb(0, 0, 0));
+  /* border: 1px solid rgba(85, 51, 6, 0.541); */
 }
 
 .icon-block .icon-img {
@@ -66,13 +124,13 @@ body {
 
 .icon-img {
   color: rgb(223, 37, 37);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .icon-block .icon-img:hover {
   scale: 1.1;
   transition: 300ms;
-
+  color: #f6f6f9;
 }
 
 .icon-block:first-child {
@@ -108,10 +166,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  width: 70%;
-  height: 70%;
-  border: 1px solid #0f5dd1dc;
+  width: 65%;
+  height: 65%;
+  border: 1px solid #d4b11286;
   border-radius: 50%;
+  background: radial-gradient(#000000, #1d1818a9, #383b3bbb);
+  background: radial-gradient(#ddf107bb, #da0c0cf6, #c309db52, #ff00003b);
 }
 .circle .icon-block .icon-img {
   animation: img-rotate 20s linear infinite;
@@ -215,11 +275,12 @@ body {
 /* Right panel*/
 
 .sec4-right-panel {
-  width: 40rem;
+  width: 40%;
   padding: 1rem;
   /* clip-path: polygon(25% 0%,100% 1%,100% 100%,25% 100%,36% 51%); */
   border: 1px solid rgba(241, 241, 241, 0.322);
   /* clip-path:ellipse(67% 100% at 8% 50%); */
   border-radius: 0.2rem;
+  background-color: #0000007c;
 }
 

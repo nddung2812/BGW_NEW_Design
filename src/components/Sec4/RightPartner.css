@@ -4,6 +4,25 @@
   display: flex;
 }
 
+.industry-heading {
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.industry-heading::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(45deg, #def107, #da0c0c, #ff0000, transparent);
+}
+
 .partner-businesses {
   width: 100%;
   display: flex;
@@ -13,19 +32,19 @@
 }
 
 .partner-business {
-  height: 64%;
+  height: 70%;
   width: 100%;
   display: grid;
   place-content: center;
-  row-gap: 0.1rem;
-  grid-template-columns: repeat(5, 20%);
+  place-items: center;
+  row-gap: 0.5rem;
+  grid-template-columns: repeat(5, 20.2%);
 }
 
 .business-logo-ctn {
-  width: 77%;
+  width: 75%;
   height: 70%;
   padding: 0.7rem;
-  margin: 0.3rem 0.3rem;
   background-color: rgb(130, 130, 130);
   display: flex;
   align-items: center;
@@ -38,7 +57,7 @@
 }
 
 .business-logo-ctn a {
-  width: 95%;
+  width: 98%;
 }
 .business-logo-ctn img:hover {
   transform: scale(1.07);
@@ -46,7 +65,7 @@
 }
 
 .partner-business img {
-  width: 95%;
+  width: 100%;
   height: auto;
   transition: 400ms;
 }

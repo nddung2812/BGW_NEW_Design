@@ -11,9 +11,9 @@
   }
   
   .sec1-banner {
-    width: 82%;
-    height: 42rem;
-    border-radius: 0.5rem;
+    width: 85%;
+    height: 45rem;
+    border-radius: 0.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,27 +29,27 @@
   
   
   .sec1-banner2 {
-    width: 82%;
-    height: 42rem;
+    width: 85%;
+    height: 45rem;
     opacity: 1;
     z-index: 0;
     position: relative;
-    box-shadow: 2px 8px 32px 0 rgb(109, 3, 179);
-    bottom: 42rem;
+    /* box-shadow: 2px 8px 32px 0 rgb(109, 3, 179); */
+    bottom: 45rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: center;
     overflow: hidden;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     background: linear-gradient(to left top, rgb(58 0 0), rgb(181 7 7));
   }
   
   
   .bg-front-cover {
-    width: 82%;
-    height: 42rem;
+    width: 85%;
+    height: 45rem;
     opacity: 1;
     background-color: #0808088a;
     background-blend-mode: darken;
@@ -57,7 +57,7 @@
     background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F5-bg.jpg?alt=media&token=651a7cfa-abe6-4b8f-a575-f1f4628161bb");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -20rem;
+    background-position: -12rem;
   }
   
   .sec1-banner-body {
@@ -87,7 +87,7 @@
     background: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fback.png?alt=media&token=cce37eed-1dcd-4aed-be8e-b4722d457120");
     -webkit-background-clip: text;
     background-position: 0 0;
-    animation: back 20s linear infinite;
+    animation: back 30s linear infinite;
   }
 
   @keyframes back {
@@ -136,13 +136,6 @@
     justify-content: center;
   }
   
-  .banner-body-right-top video {
-    height: 90%;
-    object-fit: contain;
-    overflow: hidden;
-    border-radius: 1rem;
-  }
-  
   .banner-body-right-layer2 {
     width: 45%;
     height: 38rem;
@@ -156,15 +149,16 @@
   .banner-body-right-layer2 video {
     width: 90%;
     object-fit: contain;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 24px 0 rgb(22, 21, 21);
   }
   
   .sec1-banner-footer {
-    height: 10rem;
-    width: 82%;
+    height: 12rem;
+    width: 85%;
     margin: 0 auto;
     position: relative;
-    bottom: 52rem;
+    bottom: 57rem;
     z-index: 2;
     background: linear-gradient(135deg, rgba(160, 11, 11, 0.1), rgba(255,255,255 0));
     backdrop-filter: blur(10px);
@@ -188,8 +182,8 @@
     height: 2px;
     width: 100%;
     background:linear-gradient(to right, transparent, rgb(212, 212, 12), rgb(241, 25, 25) 5%, rgba(77, 13, 204, 0.801), transparent);
-    animation: animate 30s linear infinite;
-    background-size: 600%;
+    animation: animate 20s linear infinite;
+    background-size: 300%;
   }
 
   @keyframes animate {
@@ -197,15 +191,15 @@
         background-position: 0 0;
     }
     50% {
-        background-position: 600% 0;
+        background-position: 300% 0;
     }
     100% {
-        background-position: 600% 0;
+        background-position: 300% 0;
     }
 }
   
   .sec1-banner-footer-right {
-    width: 50%;
+    width: 45%;
     padding: 0 2rem;
     display: flex;
     align-items: center;
