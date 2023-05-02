@@ -14,7 +14,7 @@
     overflow: hidden;
     background-color: #080808b9;
     background-position: -65px;
-    border: 1px solid rgba(128, 128, 128, 0.507);
+    /* border: 1px solid rgba(128, 128, 128, 0.507); */
     margin-bottom: 3rem;
     -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
     box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);

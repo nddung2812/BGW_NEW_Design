@@ -6,6 +6,11 @@ export const ExperiencesLeft = () => {
         <div className="sec4-exp-left-heading">
             <h1>OUR EXPERIENCE SPEAKS FOR ITSELF</h1>
         </div>
+        <div className="sec4-exp-left-bullet-point-ctn">
+            <div className="sec4-exp-left-bullet">Excellent Serivce</div>
+            <div className="sec4-exp-left-bullet">Best Value</div>
+            <div className="sec4-exp-left-bullet">Right Advice</div>
+        </div>
         <div className="sec4-exp-left-p">
             <p>The skills and capabilities we’ve acquired over many years of supporting large projects enable us to provide first 
                 class supply chain solutions to the world’s biggest projects in Australia and around the globe. Every project is 

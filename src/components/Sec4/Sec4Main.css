@@ -65,8 +65,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(189, 171, 171, 0.568);
-  padding: 1rem 0;
+  /* border: 1px solid rgba(189, 171, 171, 0.568); */
+  padding: 2rem 0;
   height: 40rem;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbacground2.jpg?alt=media&token=dba840bd-f2aa-4009-88c7-b78534f357ec");
   border-radius: 0.3rem;
@@ -74,6 +74,13 @@
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-color: #0000008a;
+}
+
+.sec4-center-banner.experiences {
+  background-image: none;
+  background-blend-mode: lighten;
+  background-color: transparent;
+  border: 1px solid rgba(189, 171, 171, 0.568);
 }
 
 .main {

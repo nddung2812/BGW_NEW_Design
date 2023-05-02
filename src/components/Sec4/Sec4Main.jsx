@@ -83,7 +83,7 @@ export const Sec4Main = () => {
             </div>
         }
         {section === "experiences" && 
-            <div className="sec4-center-banner">
+            <div className="sec4-center-banner experiences">
                 <ExperiencesLeft />
                 <ExperiencesRight />
             </div>

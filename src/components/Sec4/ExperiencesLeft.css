@@ -3,7 +3,49 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     padding: 2rem;
+}
+
+.sec4-exp-left-heading {
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 1rem;
+}
+
+.sec4-exp-left-heading h1 {
+    font-size: 2rem;
+}
+
+.sec4-exp-left-bullet-point-ctn {
+    width: 80%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.sec4-exp-left-bullet {
+    height: 2rem;
+    font-size: 1.5rem;
+    width: 13rem;
+    background: linear-gradient(to right, rgb(181 7 7), rgb(119, 18, 3));
+    margin: 0.5rem 0;
+    padding: 0.7rem 1rem;
+    clip-path: polygon(93% 0%, 100% 50%, 93% 100%, 0% 100%, 0% 50%, 0% 0%);
+    padding-left: 2rem;
+}
+
+.sec4-exp-left-p {
+    width: 100%;
+}
+
+.sec4-exp-left-p p {
+    width: 80%;
+    font-size: 1.1rem;
 }
