@@ -10,3 +10,21 @@
     height: 100%;
     overflow-y: hidden;
 }
+
+.sec6-main-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 1rem 2rem 2rem;
+    border: 1px solid red;
+}
+
+.sec6-main-body-left {
+    width: 35rem;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.sec6-main-body-right {
+    width: 50rem;
+}
