@@ -114,9 +114,7 @@ export const MCarousel = () => {
     <div className="stage" 
       ref={stage} 
     >
-      <div className="our-businesses">
-        <h1>Our Businesses</h1>
-      </div>
+
       <div className="carousel-container" >
         <div className="ring" ref={ring} >
           <div className="img-ctn carousel-cnw" onMouseEnter={onEnter} onMouseLeave={onLeave}>

@@ -2,39 +2,6 @@
   transform-style: preserve-3d;
   user-select:none;
 }
-
-.our-businesses {
-  width: 95%;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 6rem;
-}
-
-.our-businesses h1 {
-  width: 21rem;
-  color: #f6f6f9;
-  text-transform: uppercase;
-  font-size: 40px;
-  height: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 2rem;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
-  -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
-  box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.749);
-  background-color: rgba(255, 255, 255, 0.06);
-  border-radius: 0.2rem;
-}
-
-.our-businesses h1::after {
-  content: "";
-  height: 1px;
-  width: 100%;
-  background: linear-gradient(45deg, #def107, #da0c0c, #d400ff, transparent);
-}
-
 .stage {
   width: 100%;
   height: 55rem; 
