@@ -6,6 +6,7 @@
     top: 1rem;
     left: 1rem;
     overflow: initial;
+    z-index: 99;
   }
   
   .bgwlogo-ctn img {

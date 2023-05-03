@@ -31,7 +31,7 @@ export const Sec4Main = () => {
 
 
   return (
-    <section className="main-container">
+    <section className="sec4-main-container">
         <div className="sec4-main-header">
             <div className="sec4-main-header-left" onClick={handleChangeIndustries}>Industries</div>
             <div className="sec4-main-header-right" onClick={handleChangeExperiences}>Expericences</div>

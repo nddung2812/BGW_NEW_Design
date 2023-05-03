@@ -79,15 +79,6 @@ export const Timeline = () => {
         <SwiperSlide className='swiper-slide-timeline'>
           <img src={TimelineImages[8]}/>
         </SwiperSlide>
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <div className="arrow-back-outline"></div>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-          <div className="arrow-forward-outline"></div>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
       </Swiper>
     </div>
   )

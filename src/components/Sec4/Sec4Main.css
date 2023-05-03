@@ -5,7 +5,7 @@
 }
 
 
-.main-container {
+.sec4-main-container {
   min-height: 40rem;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   -webkit-align-items: center;
   overflow: hidden;
   justify-content: center;
-  margin: 8rem 0;
+  margin: 8rem 0 12rem 0;
 }
 
 .sec4-main-header {
