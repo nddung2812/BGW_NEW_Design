@@ -13,7 +13,7 @@
 }
 
 .sec5-main-heading-ctn {
-    margin-top: 5rem;
+    margin-top: 6rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,13 +21,33 @@
 }
 
 .sec5-main-heading {
-    width: 22rem;
+    width: 21rem;
     height: 5rem;
-    border: 1px solid rgba(76, 76, 82, 0.486);
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    /* background: linear-gradient(rgb(187,7,8), rgb(61, 16, 16)); */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 0.2rem;
+    /* clip-path: polygon(100% 0%,96% 50%,100% 100%,0% 100%,4% 50%,0% 0%); */
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.749);
+}
+
+.sec5-main-heading h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec5-main-heading h1::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(45deg, #def107, #da0c0c, #d400ff, transparent);
 }

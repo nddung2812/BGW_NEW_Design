@@ -1,24 +1,107 @@
 .container-timeline {
   width: 100%;
-  height: 40rem;
+  height: 45rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .swiper_container-timeline {
-  padding: 2rem 0;
+  padding: 0 0 8rem 0;
   position: relative;
 }
 
 .swiper-slide-timeline {
-  width: 32rem;
+  width: 36rem;
   position: relative;
 }
 
-.swiper-slide-timeline img {
-  width: 32rem;
+.tl-details {
+  position: relative;
+  width: 36rem;
   height: 24rem;
-  border-radius: 0.5rem;
+}
+
+.tl-details-body {
+  z-index: -1;
+  height: inherit;
+  /* display: none; */
+}
+
+.tl-details-body img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  border-radius: 4px;
+}
+
+.tl-details-content {
+  height: inherit;
+  width: inherit;
+  position: relative;
+  top: -24rem;
+  background: linear-gradient(
+      hsl(0 0% 0% / 0),
+      hsl(20 0% 0% / 0.3) 20%,
+      hsl(0 0% 0% / 0.8)
+  );
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* overflow: hidden; */
+  border-bottom-right-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.tl-details-content h2 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.tl-details-h2-divider {
+  width: 4.5rem;
+  height: 2px;
+  background: linear-gradient(45deg, #def107, #da0c0c);
+  margin-left: 1rem;
+}
+
+.tl-details-content p {
+  width: 28rem;
+  margin: 0.5rem 0 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.tl-details-header-logoctn {
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tl-details-header-logoctn a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: linear-gradient(rgb(233, 226, 226), rgb(108, 107, 107));
+  /* background-color: #f3ebebda; */
+}
+
+@media (hover) {
+  .tl-details-content > *:not(.tl-details-header-logoctn) {
+    transition: transform 500ms ease;
+  }
+
+  .tl-details-content:hover > *:not(.tl-details-header-logoctn) {
+    transform: translateY(12rem);
+    transition: transform 500ms ease;
+  }
+
+  .tl-details-content:hover {
+    background: none;
+  }
 }

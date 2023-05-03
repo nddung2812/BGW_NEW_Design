@@ -1,7 +1,8 @@
 .preloader {
     height: 100vh;
     width: 100%;
-    background-color: #030303;
+    /* background-color: #030303; */
+    background: linear-gradient(to left top, rgb(1, 6, 15), rgb(14, 57, 109));
     position: fixed;
     bottom: 0;
     left: 0;
