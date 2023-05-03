@@ -291,9 +291,7 @@
 .sec4-right-panel {
   width: 40%;
   padding: 1rem;
-  /* clip-path: polygon(25% 0%,100% 1%,100% 100%,25% 100%,36% 51%); */
   border: 1px solid rgba(241, 241, 241, 0.322);
-  /* clip-path:ellipse(67% 100% at 8% 50%); */
   border-radius: 0.2rem;
   background-color: #0000007c;
 }

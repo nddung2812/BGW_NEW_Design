@@ -4,7 +4,7 @@
   overflow-x: hidden;
   background: linear-gradient(to left top, rgb(1, 6, 15), rgb(14, 57, 109));
   /* background: linear-gradient(to left top, rgb(0, 3, 14), rgb(3, 40, 87)); */
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
