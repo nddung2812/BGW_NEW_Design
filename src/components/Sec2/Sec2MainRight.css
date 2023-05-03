@@ -1,18 +1,19 @@
 .sec2-main-right {
-    width: 35%;
-    height: 75%;
-    padding: 0.5rem;
+    width: 40rem;
+    height: 38rem;
+    padding: 0.5rem 0;
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F3-bg.jpg?alt=media&token=cdf00523-9c30-437d-a1fc-561e9c2b5a28");
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F3-bg.jpg?alt=media&token=cdf00523-9c30-437d-a1fc-561e9c2b5a28");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-blend-mode: darken;
     overflow: hidden;
-    background-color: #080808b9;
+    /* background-color: #080808b9; */
+    background-color: rgba(255, 255, 255, 0.06);
     background-position: -65px;
     margin-bottom: 1rem;
     -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
@@ -53,6 +54,7 @@
     list-style: none;
     margin: 0rem 0.8rem 0.2rem 1.2rem;
     font-size: 1.1rem;
+    line-height: 1.35;
     font-weight: 300;
     padding: 0 1.2rem;
   }
@@ -84,8 +86,8 @@
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     border-radius: 0.2rem;
-    -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
-    box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.726);
     cursor: pointer;
   }
 

@@ -65,7 +65,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid rgba(189, 171, 171, 0.568); */
   padding: 2rem 0;
   height: 40rem;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2Fbacground2.jpg?alt=media&token=dba840bd-f2aa-4009-88c7-b78534f357ec");
@@ -80,7 +79,6 @@
   background-image: none;
   background-blend-mode: lighten;
   background-color: transparent;
-  /* border: 1px solid rgba(189, 171, 171, 0.568); */
   padding: 2rem 1rem 2rem 0;
   background-color: rgba(255, 255, 255, 0.06);
   -webkit-backdrop-filter: blur(15px);
@@ -88,14 +86,21 @@
   border-radius: 0.2rem;
   -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
   box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
+  margin: 2rem 0;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/bgwgroupwebapp.appspot.com/o/Background%20Images%2F3-bg.jpg?alt=media&token=cdf00523-9c30-437d-a1fc-561e9c2b5a28");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: #0000008a;
 }
 
-.main {
+.sec4-main-industries-animation {
   margin: 0px 10rem 0 0;
   width: 33rem;
   height: 33rem;
   position: relative;
 }
+
 .big-circle {
   height: 100%;
   width: 100%;
@@ -111,7 +116,6 @@
   animation: Rotate 20s linear infinite;
   -webkit-animation: Rotate 20s linear infinite;
   background: radial-gradient(#2e2d2de0, #030303);
-  /* background: radial-gradient(#2e2d2da9, #030303, rgb(185, 204, 19), rgb(184, 22, 184)); */
 }
 .icon-block {
   width: 4.5rem;
@@ -291,7 +295,7 @@
 .sec4-right-panel {
   width: 40%;
   padding: 1rem;
-  border: 1px solid rgba(241, 241, 241, 0.322);
+  border: 1px solid rgba(43, 38, 38, 0.322);
   border-radius: 0.2rem;
   background-color: #0000007c;
 }

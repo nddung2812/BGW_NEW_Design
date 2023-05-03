@@ -1,0 +1,38 @@
+.navigation {
+	height: 6rem;
+	width: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+  	z-index: 0;
+}
+
+.icon, .active {
+  margin: 5px 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.icon {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: rgb(187,7,7);
+  box-shadow: 
+	2px 2px 8px rgba(0, 0, 0, 0.75),
+	inset 2px 2px 3px rgba(255, 255, 255, 0.25),
+	inset -3px -3px 5px rgba(0, 0,0 ,0.5);
+}
+
+.active {
+  width: 0.65rem;
+  height: 0.65rem;
+  background: #f6f6f9;
+	box-shadow: 
+	0 0 5px #f6f6f9,
+	0 0 10px #f6f6f9,
+	0 0 20px #f6f6f9,
+	0 0 30px #f6f6f9,
+	0 0 40px #f6f6f9,
+	0 0 50px #f6f6f9;
+}

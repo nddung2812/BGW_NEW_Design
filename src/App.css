@@ -3,8 +3,20 @@
   height: 100%;
   overflow-x: hidden;
   background: linear-gradient(to left top, rgb(1, 6, 15), rgb(14, 57, 109));
+  /* background-color: rgba(255, 255, 255, 0.06); */
+  /* -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px); */
   /* background: linear-gradient(to left top, rgb(0, 3, 14), rgb(3, 40, 87)); */
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
+.vertical-nav {
+  position: fixed;
+  width: 3rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}

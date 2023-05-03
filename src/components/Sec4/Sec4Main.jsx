@@ -38,7 +38,7 @@ export const Sec4Main = () => {
         </div>
         {section === "industries" &&
             <div className="sec4-center-banner">
-            <div className="main">
+            <div className="sec4-main-industries-animation">
                 <div className="big-circle">
                     <div className="icon-block" onClick={() => handleClick("industrial")}>
                         <FontAwesomeIcon className='icon-img' icon={faIndustry} />

@@ -181,7 +181,7 @@
     content: "";
     height: 2px;
     width: 100%;
-    background:linear-gradient(to right, transparent, rgb(212, 212, 12), rgb(241, 25, 25) 5%, rgba(77, 13, 204, 0.801), transparent);
+    background:linear-gradient(to right, transparent, rgb(235, 235, 8), rgb(287, 7, 7) 5%, rgba(80, 7, 226, 0.877), transparent);
     animation: animate 20s linear infinite;
     background-size: 300%;
   }

@@ -1,0 +1,55 @@
+#google-map-ctn {
+    width: 100%;
+    height: 40rem;
+}
+
+#map-heading {
+    height: 3rem;
+    width: 12rem;
+    position: absolute;
+    z-index: 10;
+    transform: translateX(4px) translateY(4px);
+    font-size: 1.5rem;
+}
+
+.gm-style-iw-d {
+    color: #1d1d1f;
+}
+
+.infowindow-ctn h1{
+    font-size: 1rem;
+    color: #d13939;
+}
+
+.infowindow-ctn h2 {
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+.infowindow-ctn h2 span {
+    font-weight: 600;
+}
+
+.select-company {
+    position: relative; 
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.select-company select {
+    height: 1.5rem;
+    width: 6rem;
+}
+
+@media (max-width: 1350px) and (min-width: 769px) {
+    #google-map-ctn {
+        height: 30rem;
+    }
+}
+
+
+@media(max-width: 768px) {
+    #google-map-ctn {
+        height: 16rem;
+    }
+}
