@@ -21,9 +21,16 @@ export const Sec6Main = () => {
             </div>
             <div className="sec6-main-body">
                 <div className="sec6-main-body-left">
-                    <div className="sec6-main-body-left-heading-ctn">FIND OUR LOCATIONS</div>
+                    <div className="sec6-main-body-left-heading-ctn">
+                        <h1>FIND OUR LOCATIONS</h1>
+                    </div>
                     <div className="sec6-main-body-left-p">
                         <p>BGW Group is an Australian family owned distribution and supply chain management company with a portfolio of local and international wholesaling businesses.</p>
+                    </div>
+                    <div className="sec6-main-body-left-btn">
+                        {location === "australian" && <a onClick={handleChangeExperiences}>Our Global Partners</a>}
+                        {location === "international" && <a onClick={handleChangeIndustries}>Our Australian locations</a>}
+
                     </div>
                 </div>
                 <div className="sec6-main-body-right">

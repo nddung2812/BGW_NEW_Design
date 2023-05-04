@@ -4,11 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-       -webkit-backdrop-filter: blur(15px);
+       /* -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     -webkit-box-shadow: 0 25px 23px rgba(0, 0, 0, 0.15);
     box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.726);
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: rgba(255, 255, 255, 0.06); */
     padding: 3rem 0;
 }
 
