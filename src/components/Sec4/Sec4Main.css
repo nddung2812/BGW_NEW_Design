@@ -316,8 +316,9 @@
   width: 11rem;
   padding: 1rem;
   font-size: 1rem ;
-  background: rgb(181 7 7);
+  background: rgb(181,7, 7);
   border: none;
   border-radius: 0.2rem;
   cursor: pointer;
+  color: #f6f6f9;
 }

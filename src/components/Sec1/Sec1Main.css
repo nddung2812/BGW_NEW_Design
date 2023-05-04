@@ -105,9 +105,10 @@
   
   .banner-body-left h3 {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     margin: 1rem 0 1.5rem 0;
     width: 80%;
+    color: #f6f6f9;
   }
   
   .banner-body-left button {
@@ -117,6 +118,10 @@
     border: none;
     background: rgb(181 7 7);
     font-size: 1rem;
+  }
+
+  .banner-body-left button a {
+    color: #f6f6f9;
   }
   
   .banner-body-right {
