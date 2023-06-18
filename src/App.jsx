@@ -8,7 +8,6 @@ import { Sec3Main } from './components/Sec3/Sec3Main';
 import { Sec4Main } from './components/Sec4/Sec4Main';
 import { Sec5Main } from './components/Sec5/Sec5Main';
 import { Sec6Main } from './components/Sec6/Sec6Main';
-import { Sec7Main } from './components/Sec7/Sec7Main';
 
 function App() {
 
@@ -26,7 +25,6 @@ function App() {
         <Sec5Main />
         <Sec3Main />
         <Sec6Main />
-        <Sec7Main />
       </div>
     </>
   )

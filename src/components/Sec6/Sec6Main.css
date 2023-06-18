@@ -58,6 +58,14 @@
 
 .sec6-main-body-left-p {
     height: 6rem;
+    color: #f6f6f9;
+    font-weight: 300;
+}
+
+.sec6-main-body-left-p p {
+    color: #f6f6f9;
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .sec6-main-body-left-btn {
